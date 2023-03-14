@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: TestMesh.ma
-//Last modified: Wed, Mar 15, 2023 12:11:39 AM
+//Last modified: Wed, Mar 15, 2023 12:21:20 AM
 //Codeset: 936
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202205171752-c25c06f306";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 22621)";
-fileInfo "UUID" "6B4705E1-4BCA-B9AE-1E5E-8EB9757ECE2B";
+fileInfo "UUID" "BC4ED6CC-47AD-1601-9FDB-95991E75D6DB";
 createNode transform -s -n "persp";
 	rename -uid "A5FA9F68-4AB0-071A-C616-28A827BCD232";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 263.22885086492647 -346.38998662445397 231.00397129913927 ;
-	setAttr ".r" -type "double3" 70.882924915415245 -3.1805546814635176e-15 -322.40508600475709 ;
+	setAttr ".t" -type "double3" -351.85849502999525 -295.54763688422008 76.007288612887294 ;
+	setAttr ".r" -type "double3" 90.682924915415825 3.180554681463516e-15 -410.40508600475209 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "29B017A0-4D99-73A7-B555-CA8FD928D034";
 	setAttr -k off ".v" no;
@@ -22448,7 +22448,7 @@ createNode shadingEngine -n "justMyMesh_2023:polySurface7SG2";
 createNode materialInfo -n "justMyMesh_2023:materialInfo5";
 	rename -uid "8C5B5FFE-4426-2152-02D6-479B3CD637E2";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "EC5ACC5A-4AD6-1C67-61E9-C1AF2804E0B5";
+	rename -uid "0ECD5EDD-495F-8DB0-687E-F4ADD31C45CB";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -513.09521770666606 -413.09522168030884 ;
